@@ -2,7 +2,7 @@
 
 Original contract code from: [https://github.com/MyCryptoHQ/eth-scan](https://github.com/MyCryptoHQ/eth-scan)
 
-With slight modifications such as:
+With slight modifications, such as:
 - newer compiler
 - ported tests to foundry
 - create2 deploy to achieve same address across networks
@@ -20,7 +20,7 @@ Ideally verify on the main block explorer of the chain.
 ### Existing deployments:
 
 All deployments are on the same address: 0xba1a5ca51097c890d0e595c9c5c290985034ddcb  
-If something just says "deployed" it exists, but simply couldn't be verified for some reason. (e.g. no blockexplorer)
+If something just says "deployed," it exists, but simply couldn't be verified for some reason. (e.g. no blockexplorer)
 
 | Network   | Blockexplorer                                                                                     |
 | --------  | --------                                                                                          |  
