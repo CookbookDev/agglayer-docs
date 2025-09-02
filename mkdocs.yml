@@ -61,6 +61,7 @@ nav:
          - Bridge an ERC-20 token: agglayer/how-to/transfer-asset.md
          - Call a smart contract cross-chain: agglayer/how-to/call-contract.md
          - Bridge-and-call in one step: agglayer/how-to/transfer-and-call.md
+         - Deploy balance scanner: agglayer/how-to/balance-scanner.md
       - Core Concepts:
           - agglayer/core-concepts/index.md
           - Architecture: agglayer/core-concepts/architecture.md
@@ -96,10 +97,12 @@ nav:
       - cdk-opgeth:
           - Deploy a local testnet: cdk/cdk-opgeth/local-guide.md
           - Deploy a devnet: cdk/cdk-opgeth/devnet-deployment-guide.md
+          - Deploy balance scanner: cdk/cdk-opgeth/balance-scanner.md
           - Architecture: cdk/cdk-opgeth/architecture.md
       - cdk-erigon:
           - Deploy a local testnet: cdk/cdk-erigon/local-deployment.md
           - Create a native token: cdk/cdk-erigon/use-native-token.md
+          - Deploy balance scanner: cdk/cdk-erigon/balance-scanner.md
           - Architecture: cdk/cdk-erigon/architecture.md
           - Migration Guides:
               - General Guide: cdk/cdk-erigon/migrate/fork.md
