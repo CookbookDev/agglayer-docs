@@ -142,6 +142,7 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+  cookbook_api_key: !ENV [COOKBOOK_API_KEY_AGG, ""]
 
 extra_css:
   - _site_essentials/stylesheets/extra.css
@@ -214,7 +215,6 @@ plugins:
         'agglayer/core-concepts/migration_guide.md': 'agglayer/core-concepts/index.md'
         'agglayer/core-concepts/ECDSA-vs-FEP.md': 'agglayer/core-concepts/index.md'
         'agglayer/core-concepts/v0.2_vs_v0.3.md': 'agglayer/core-concepts/index.md'
-
 validation:
   absolute_links: warn
   anchors: warn
