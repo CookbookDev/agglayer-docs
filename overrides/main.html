@@ -6,6 +6,10 @@
     <meta name="google-site-verification" content="sALqmNQZWZ6_5ig5JqIaFiR6AMUotcGG6xFq_fQPt_U" />
     <!-- End of verification for Google search -->
 
+    <!-- Chef AI -->
+  <script src="https://cdn.jsdelivr.net/npm/@cookbookdev/docsbot/dist/standalone/index.cjs.js" defer></script>
+    <!-- End Chef AI -->
+
 {% endblock %}
 
 {% block scripts %}
@@ -15,5 +19,10 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQWH3L28"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Chef AI -->
+     <div id="__cookbook" data-api-key={{config.extra.cookbook_api_key}} ></div>
+    <!-- End Chef AI -->
+     
     
 {% endblock %}
