@@ -214,7 +214,6 @@ plugins:
         'agglayer/core-concepts/migration_guide.md': 'agglayer/core-concepts/index.md'
         'agglayer/core-concepts/ECDSA-vs-FEP.md': 'agglayer/core-concepts/index.md'
         'agglayer/core-concepts/v0.2_vs_v0.3.md': 'agglayer/core-concepts/index.md'
-
 validation:
   absolute_links: warn
   anchors: warn
